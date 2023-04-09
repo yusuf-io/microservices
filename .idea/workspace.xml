@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e322d02c-b955-4d9b-9c44-6902df1660f7" name="Changes" comment="initialize maven project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681037261263</updated>
       <workItem from="1681037263022" duration="2563000" />
-      <workItem from="1681041924548" duration="3816000" />
+      <workItem from="1681041924548" duration="4914000" />
     </task>
     <task id="LOCAL-00001" summary="initialize maven project">
       <created>1681037297681</created>
@@ -144,8 +143,20 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initialize maven project" />
+    <MESSAGE value="add order service project as maven module" />
     <option name="LAST_COMMIT_MESSAGE" value="initialize maven project" />
   </component>
 </project>
