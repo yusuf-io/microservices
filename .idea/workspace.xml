@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e322d02c-b955-4d9b-9c44-6902df1660f7" name="Changes" comment="initialize maven project">
+    <list default="true" id="e322d02c-b955-4d9b-9c44-6902df1660f7" name="Changes" comment="&quot;finalize inventory service project&quot;">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/xyz/inventory_service/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/xyz/inventory_service/InventoryServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" afterDir="false" />
@@ -59,7 +60,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "7e3d94c3c4031273f13152da840b0c19",
+    "spring.configuration.checksum": "60a8fcc1fe625baa2dd8eeb10aeff4aa",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -73,7 +74,14 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.InventoryServiceApplication">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProductServiceApplication">
     <configuration name="ProductServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xyz.product_service.ProductServiceApplication" />
       <module name="product-service" />
@@ -129,8 +137,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.InventoryServiceApplication" />
-        <item itemvalue="Spring Boot.OrderServiceApplication" />
         <item itemvalue="Spring Boot.ProductServiceApplication" />
+        <item itemvalue="Spring Boot.OrderServiceApplication" />
         <item itemvalue="Application.ProductServiceApplication" />
       </list>
     </recent_temporary>
@@ -145,7 +153,8 @@
       <updated>1681037261263</updated>
       <workItem from="1681037263022" duration="2563000" />
       <workItem from="1681041924548" duration="7516000" />
-      <workItem from="1681151825881" duration="979000" />
+      <workItem from="1681151825881" duration="1117000" />
+      <workItem from="1681152956217" duration="475000" />
     </task>
     <task id="LOCAL-00001" summary="initialize maven project">
       <created>1681037297681</created>

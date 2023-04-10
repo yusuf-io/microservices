@@ -25,8 +25,6 @@ public class InventoryServiceApplication {
             inventory1.setSkuCode("iphone_13_grey");
             inventory1.setQuantity(0);
 
-            inventoryRepository.deleteAll();
-
             inventoryRepository.save(inventory);
             inventoryRepository.save(inventory1);
         };
