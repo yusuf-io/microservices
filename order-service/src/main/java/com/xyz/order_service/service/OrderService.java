@@ -18,7 +18,7 @@ import java.util.UUID;
 @RequiredArgsConstructor
 public class OrderService {
     private final OrderRepository orderRepository;
-    private final WebClient webClient;
+    private final WebClient.Builder webClientBuilder;
 
     public void placeOrder(OrderRequest orderRequest) {
         List<OrderLineItems> orderLineItems = orderRequest.getOrderLineItemsDtoList()
@@ -33,8 +33,8 @@ public class OrderService {
         List<String> skuCodes = order.getOrderLineItemsList().stream()
                 .map(orderLineItem -> orderLineItem.getSkuCode()).toList();
 
-        InventoryResponse[] inventoryResponses = webClient.get()
-                .uri("http://localhost:8082/api/inventory", uriBuilder ->
+        InventoryResponse[] inventoryResponses = webClientBuilder.build().get()
+                .uri("http://inventory-service/api/inventory", uriBuilder ->
                         uriBuilder.queryParam("skuCode", skuCodes).build()
                 )
                 .retrieve()
